@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(135deg, #e8f5e9 0%, #b2dfdb 100%);
+  min-height: 100vh;
+  font-family: 'Prompt', 'Kanit', 'Segoe UI', Arial, sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #a8e063 0%, #56ab2f 100%) !important;
+  box-shadow: 0 2px 8px rgba(56, 161, 105, 0.08);
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.nav-link.active, .nav-link:focus, .nav-link:hover {
+  color: #388e3c !important;
+  background: #e8f5e9;
+  border-radius: 8px;
+}
+
+footer {
+  background: #b2dfdb !important;
+  color: #388e3c;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.btn-success, .btn-success:focus, .btn-success:active {
+  background: linear-gradient(90deg, #a8e063 0%, #56ab2f 100%) !important;
+  border: none;
+  box-shadow: 0 2px 8px rgba(56, 161, 105, 0.12);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.card-green {
+  background: rgba(168, 224, 99, 0.12);
+  border: 1px solid #b2dfdb;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(56, 161, 105, 0.08);
+  padding: 2rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.list-group-item {
+  background: transparent;
+  border: none;
+  color: #388e3c;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e8f5e9;
+}
+::-webkit-scrollbar-thumb {
+  background: #b2dfdb;
+  border-radius: 8px;
+}
